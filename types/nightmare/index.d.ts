@@ -29,7 +29,7 @@ declare class Nightmare {
     check(seletor: string): Nightmare;
     uncheck(seletor: string): Nightmare;
     select(seletor: string, option: string): Nightmare;
-    upload(selector: string, path: string): Nightmare;
+    upload(selector: string, paths: string | string[]): Nightmare;
     scrollTo(top: number, left: number): Nightmare;
     viewport(width: number, height: number): Nightmare;
     inject(type: string, file: string): Nightmare;
